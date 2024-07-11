@@ -1,187 +1,187 @@
-[
-  "Brands": [
-    {
-      "Id": 1,
-      "Name": "NVIDIA",
-      "Models": [
+{
+    "Brands": [
         {
-          "Id": "NVIDIA001",
-          "BrandId": 1,
-          "ProductName": "GeForce GTX 1660",
-          "GraphicName": "gtx1660.jpg",
-          "CostPrice": 250.00,
-          "MSRP": 279.99,
-          "QtyOnHand": 100,
-          "QtyOnBackOrder": 10,
-          "Description": "Mid-range GPU for gaming and multimedia."
+            "Id": 1,
+            "Name": "NVIDIA",
+            "Models": [
+                {
+                    "Id": "NVIDIA001",
+                    "BrandId": 1,
+                    "ProductName": "GeForce GTX 1660",
+                    "GraphicName": "gtx1660.jpg",
+                    "CostPrice": 250,
+                    "MSRP": 279.99,
+                    "QtyOnHand": 100,
+                    "QtyOnBackOrder": 10,
+                    "Description": "Mid-range GPU for gaming and multimedia."
+                },
+                {
+                    "Id": "NVIDIA002",
+                    "BrandId": 1,
+                    "ProductName": "GeForce RTX 2060",
+                    "GraphicName": "rtx2060.jpg",
+                    "CostPrice": 350,
+                    "MSRP": 399.99,
+                    "QtyOnHand": 80,
+                    "QtyOnBackOrder": 5,
+                    "Description": "High-performance GPU with ray tracing capabilities."
+                },
+                {
+                    "Id": "NVIDIA003",
+                    "BrandId": 1,
+                    "ProductName": "GeForce RTX 3070",
+                    "GraphicName": "rtx3070.jpg",
+                    "CostPrice": 500,
+                    "MSRP": 549.99,
+                    "QtyOnHand": 70,
+                    "QtyOnBackOrder": 8,
+                    "Description": "Top-tier GPU for enthusiast gaming and 3D rendering."
+                },
+                {
+                    "Id": "NVIDIA004",
+                    "BrandId": 1,
+                    "ProductName": "GeForce RTX 3080",
+                    "GraphicName": "rtx3080.jpg",
+                    "CostPrice": 700,
+                    "MSRP": 749.99,
+                    "QtyOnHand": 60,
+                    "QtyOnBackOrder": 3,
+                    "Description": "High-end GPU for ultra-high resolution gaming."
+                },
+                {
+                    "Id": "NVIDIA005",
+                    "BrandId": 1,
+                    "ProductName": "GeForce RTX 3090",
+                    "GraphicName": "rtx3090.jpg",
+                    "CostPrice": 1000,
+                    "MSRP": 1099.99,
+                    "QtyOnHand": 90,
+                    "QtyOnBackOrder": 7,
+                    "Description": "Flagship GPU for extreme gaming and professional workloads."
+                }
+            ]
         },
         {
-          "Id": "NVIDIA002",
-          "BrandId": 1,
-          "ProductName": "GeForce RTX 2060",
-          "GraphicName": "rtx2060.jpg",
-          "CostPrice": 350.00,
-          "MSRP": 399.99,
-          "QtyOnHand": 80,
-          "QtyOnBackOrder": 5,
-          "Description": "High-performance GPU with ray tracing capabilities."
+            "Id": 2,
+            "Name": "AMD",
+            "Models": [
+                {
+                    "Id": "AMD001",
+                    "BrandId": 2,
+                    "ProductName": "Radeon RX 5500 XT",
+                    "GraphicName": "rx5500xt.jpg",
+                    "CostPrice": 200,
+                    "MSRP": 229.99,
+                    "QtyOnHand": 110,
+                    "QtyOnBackOrder": 12,
+                    "Description": "Entry-level GPU for gaming and multimedia."
+                },
+                {
+                    "Id": "AMD002",
+                    "BrandId": 2,
+                    "ProductName": "Radeon RX 5700 XT",
+                    "GraphicName": "rx5700xt.jpg",
+                    "CostPrice": 350,
+                    "MSRP": 399.99,
+                    "QtyOnHand": 75,
+                    "QtyOnBackOrder": 6,
+                    "Description": "High-performance GPU for gaming and VR."
+                },
+                {
+                    "Id": "AMD003",
+                    "BrandId": 2,
+                    "ProductName": "Radeon RX 6800",
+                    "GraphicName": "rx6800.jpg",
+                    "CostPrice": 550,
+                    "MSRP": 599.99,
+                    "QtyOnHand": 65,
+                    "QtyOnBackOrder": 9,
+                    "Description": "High-end GPU with advanced features for gaming."
+                },
+                {
+                    "Id": "AMD004",
+                    "BrandId": 2,
+                    "ProductName": "Radeon RX 6900 XT",
+                    "GraphicName": "rx6900xt.jpg",
+                    "CostPrice": 700,
+                    "MSRP": 799.99,
+                    "QtyOnHand": 55,
+                    "QtyOnBackOrder": 4,
+                    "Description": "Flagship GPU for enthusiast gaming and content creation."
+                },
+                {
+                    "Id": "AMD005",
+                    "BrandId": 2,
+                    "ProductName": "Radeon VII",
+                    "GraphicName": "radeonvii.jpg",
+                    "CostPrice": 900,
+                    "MSRP": 999.99,
+                    "QtyOnHand": 95,
+                    "QtyOnBackOrder": 8,
+                    "Description": "High-performance GPU with HBM2 memory for professional use."
+                }
+            ]
         },
         {
-          "Id": "NVIDIA003",
-          "BrandId": 1,
-          "ProductName": "GeForce RTX 3070",
-          "GraphicName": "rtx3070.jpg",
-          "CostPrice": 500.00,
-          "MSRP": 549.99,
-          "QtyOnHand": 70,
-          "QtyOnBackOrder": 8,
-          "Description": "Top-tier GPU for enthusiast gaming and 3D rendering."
-        },
-        {
-          "Id": "NVIDIA004",
-          "BrandId": 1,
-          "ProductName": "GeForce RTX 3080",
-          "GraphicName": "rtx3080.jpg",
-          "CostPrice": 700.00,
-          "MSRP": 749.99,
-          "QtyOnHand": 60,
-          "QtyOnBackOrder": 3,
-          "Description": "High-end GPU for ultra-high resolution gaming."
-        },
-        {
-          "Id": "NVIDIA005",
-          "BrandId": 1,
-          "ProductName": "GeForce RTX 3090",
-          "GraphicName": "rtx3090.jpg",
-          "CostPrice": 1000.00,
-          "MSRP": 1099.99,
-          "QtyOnHand": 90,
-          "QtyOnBackOrder": 7,
-          "Description": "Flagship GPU for extreme gaming and professional workloads."
+            "Id": 3,
+            "Name": "Intel",
+            "Models": [
+                {
+                    "Id": "INTEL001",
+                    "BrandId": 3,
+                    "ProductName": "Intel Iris Xe",
+                    "GraphicName": "irisxe.jpg",
+                    "CostPrice": 150,
+                    "MSRP": 179.99,
+                    "QtyOnHand": 105,
+                    "QtyOnBackOrder": 11,
+                    "Description": "Integrated graphics solution for mainstream PCs."
+                },
+                {
+                    "Id": "INTEL002",
+                    "BrandId": 3,
+                    "ProductName": "Intel UHD Graphics 750",
+                    "GraphicName": "uhd750.jpg",
+                    "CostPrice": 100,
+                    "MSRP": 129.99,
+                    "QtyOnHand": 85,
+                    "QtyOnBackOrder": 7,
+                    "Description": "Integrated graphics for budget-oriented systems."
+                },
+                {
+                    "Id": "INTEL003",
+                    "BrandId": 3,
+                    "ProductName": "Intel Xe HPG (Arc Alchemist)",
+                    "GraphicName": "xehpg.jpg",
+                    "CostPrice": 300,
+                    "MSRP": 349.99,
+                    "QtyOnHand": 75,
+                    "QtyOnBackOrder": 5,
+                    "Description": "High-performance gaming GPU from Intel's Xe series."
+                },
+                {
+                    "Id": "INTEL004",
+                    "BrandId": 3,
+                    "ProductName": "Intel Xe HPC (Ponte Vecchio)",
+                    "GraphicName": "xehpc.jpg",
+                    "CostPrice": 1000,
+                    "MSRP": 1299.99,
+                    "QtyOnHand": 60,
+                    "QtyOnBackOrder": 3,
+                    "Description": "High-performance computing GPU for data centers."
+                },
+                {
+                    "Id": "INTEL005",
+                    "BrandId": 3,
+                    "ProductName": "Intel Xe HPG (DG2)",
+                    "GraphicName": "xehpg-dg2.jpg",
+                    "CostPrice": 500,
+                    "MSRP": 599.99,
+                    "QtyOnHand": 90,
+                    "QtyOnBackOrder": 6,
+                    "Description": "Mid-range gaming GPU from Intel's Xe series."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "Id": 2,
-      "Name": "AMD",
-      "Models": [
-        {
-          "Id": "AMD001",
-          "BrandId": 2,
-          "ProductName": "Radeon RX 5500 XT",
-          "GraphicName": "rx5500xt.jpg",
-          "CostPrice": 200.00,
-          "MSRP": 229.99,
-          "QtyOnHand": 110,
-          "QtyOnBackOrder": 12,
-          "Description": "Entry-level GPU for gaming and multimedia."
-        },
-        {
-          "Id": "AMD002",
-          "BrandId": 2,
-          "ProductName": "Radeon RX 5700 XT",
-          "GraphicName": "rx5700xt.jpg",
-          "CostPrice": 350.00,
-          "MSRP": 399.99,
-          "QtyOnHand": 75,
-          "QtyOnBackOrder": 6,
-          "Description": "High-performance GPU for gaming and VR."
-        },
-        {
-          "Id": "AMD003",
-          "BrandId": 2,
-          "ProductName": "Radeon RX 6800",
-          "GraphicName": "rx6800.jpg",
-          "CostPrice": 550.00,
-          "MSRP": 599.99,
-          "QtyOnHand": 65,
-          "QtyOnBackOrder": 9,
-          "Description": "High-end GPU with advanced features for gaming."
-        },
-        {
-          "Id": "AMD004",
-          "BrandId": 2,
-          "ProductName": "Radeon RX 6900 XT",
-          "GraphicName": "rx6900xt.jpg",
-          "CostPrice": 700.00,
-          "MSRP": 799.99,
-          "QtyOnHand": 55,
-          "QtyOnBackOrder": 4,
-          "Description": "Flagship GPU for enthusiast gaming and content creation."
-        },
-        {
-          "Id": "AMD005",
-          "BrandId": 2,
-          "ProductName": "Radeon VII",
-          "GraphicName": "radeonvii.jpg",
-          "CostPrice": 900.00,
-          "MSRP": 999.99,
-          "QtyOnHand": 95,
-          "QtyOnBackOrder": 8,
-          "Description": "High-performance GPU with HBM2 memory for professional use."
-        }
-      ]
-    },
-    {
-      "Id": 3,
-      "Name": "Intel",
-      "Models": [
-        {
-          "Id": "INTEL001",
-          "BrandId": 3,
-          "ProductName": "Intel Iris Xe",
-          "GraphicName": "irisxe.jpg",
-          "CostPrice": 150.00,
-          "MSRP": 179.99,
-          "QtyOnHand": 105,
-          "QtyOnBackOrder": 11,
-          "Description": "Integrated graphics solution for mainstream PCs."
-        },
-        {
-          "Id": "INTEL002",
-          "BrandId": 3,
-          "ProductName": "Intel UHD Graphics 750",
-          "GraphicName": "uhd750.jpg",
-          "CostPrice": 100.00,
-          "MSRP": 129.99,
-          "QtyOnHand": 85,
-          "QtyOnBackOrder": 7,
-          "Description": "Integrated graphics for budget-oriented systems."
-        },
-        {
-          "Id": "INTEL003",
-          "BrandId": 3,
-          "ProductName": "Intel Xe HPG (Arc Alchemist)",
-          "GraphicName": "xehpg.jpg",
-          "CostPrice": 300.00,
-          "MSRP": 349.99,
-          "QtyOnHand": 75,
-          "QtyOnBackOrder": 5,
-          "Description": "High-performance gaming GPU from Intel's Xe series."
-        },
-        {
-          "Id": "INTEL004",
-          "BrandId": 3,
-          "ProductName": "Intel Xe HPC (Ponte Vecchio)",
-          "GraphicName": "xehpc.jpg",
-          "CostPrice": 1000.00,
-          "MSRP": 1299.99,
-          "QtyOnHand": 60,
-          "QtyOnBackOrder": 3,
-          "Description": "High-performance computing GPU for data centers."
-        },
-        {
-          "Id": "INTEL005",
-          "BrandId": 3,
-          "ProductName": "Intel Xe HPG (DG2)",
-          "GraphicName": "xehpg-dg2.jpg",
-          "CostPrice": 500.00,
-          "MSRP": 599.99,
-          "QtyOnHand": 90,
-          "QtyOnBackOrder": 6,
-          "Description": "Mid-range gaming GPU from Intel's Xe series."
-        }
-      ]
-    }
-  ]
-]
+    ]
+}
